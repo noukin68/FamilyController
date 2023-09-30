@@ -85,7 +85,7 @@ namespace WpfApp1
             {
                 SendProcessDataToServer();
 
-                ScheduleSendingData();
+                timer.Stop();
             };
 
             timer.Start();
